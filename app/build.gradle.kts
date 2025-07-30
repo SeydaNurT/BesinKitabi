@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.swiperefreshlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -79,6 +80,8 @@ dependencies {
 
     val glideVersion = "4.11.0"
     implementation ("com.github.bumptech.glide:glide:$glideVersion")
+
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
 
 
 }
